@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.slidePaper,
+.slideTree {
+  width: 71vh;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: whitesmoke;
+  display: -webkit-flex;
+}
+
+.slideTree {
+  display: none;
+}
+
+h1 {
+  font-size: 8vh;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: relative;
+  display: -webkit-flex;
+}
+
+.paperStack1 {
+  position: relative;
+  height: 80vh;
+  width: 11vh;
+  padding-top: 20vh;
+}
+
+.paperStack1_img1 {
+  height: 40vh;
+  width: 11vh;
+}
+
+.paperStack1_img2 {
+  height: 40vh;
+  width: 11vh;
+}
+
+.paperStack2 {
+  position: relative;
+  height: 100vh;
+  width: 11vh;
+}
+
+.paperStack2_img1 {
+  height: 16vh;
+  width: 11vh;
+}
+
+.paperStack2_img2 {
+  height: 52vh;
+  width: 11vh;
+}
+
+.paperStack3 {
+  position: relative;
+  height: 100vh;
+  width: 16vh;
+}
+
+.paperStack3_img1 {
+  height: 50vh;
+  width: 16vh;
+}
+
+.paperStack3_img2 {
+  height: 50vh;
+  width: 16vh;
+}
+
+.paperStack4 {
+  position: relative;
+  padding-top: 10vh;
+  height: 90vh;
+  width: 5vh;
+}
+
+.paperStack4_img1 {
+  height: 45vh;
+  width: 5vh;
+}
+
+.paperStack4_img2 {
+  height: 45vh;
+  width: 5vh;
+}
+
+.paperStack5 {
+  position: relative;
+  height: 100vh;
+  width: 11vh;
+}
+
+.paperStack5_img1 {
+  height: 55vh;
+  width: 11vh;
+}
+
+.paperStack6 {
+  position: relative;
+  height: 100vh;
+  width: 16vh;
+}
+
+.paperStack6_img1 {
+  height: 50vh;
+  width: 16vh;
+}
+
+.paperStack6_img2 {
+  height: 50vh;
+  width: 16vh;
+}
+
+.treeStack1 {
+  position: relative;
+  padding-left: 1vh;
+  height: 100vh;
+  width: 11vh;
+}
+
+.treeStack1_img {
+  height: 100vh;
+  width: 11vh;
+}
+
+.treeStack2 {
+  position: relative;
+  padding-left: 1vh;
+  height: 60vh;
+  width: 11vh;
+}
+
+.treeStack2_img {
+  height: 60vh;
+  width: 11vh;
+}
+
+.treeStack3 {
+  position: relative;
+  padding-top: 20vh;
+  padding-left: 1vh;
+  height: 80vh;
+  width: 16vh;
+}
+
+.treeStack3_img {
+  height: 80vh;
+  width: 16vh;
+}
+
+.treeStack4 {
+  position: relative;
+  padding-left: 1vh;
+  height: 80vh;
+  width: 11vh;
+}
+
+.treeStack4_img {
+  height: 40vh;
+  width: 11vh;
+}
+
+.treeStack5 {
+  position: relative;
+  padding-left: 1vh;
+  height: 100vh;
+  width: 16vh;
+}
+
+.treeStack5_img {
+  height: 100vh;
+  width: 16vh;
+}
