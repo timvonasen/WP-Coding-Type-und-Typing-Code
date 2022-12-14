@@ -1,0 +1,56 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  flex-direction: column;
+}
+
+.Paperstack01 {
+  position: fixed;
+  bottom: 0;
+}
+
+.Paperstack02 {
+  position: fixed;
+  bottom: 0;
+  margin-left: 300px;
+}
+
+.LineDrawContainer {
+  width: 112px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#LineDrawMiddle {
+  margin-top: 2px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+
+#LineDrawLeft {
+  margin-top: 2px;
+  margin-right: 4px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+
+#LineDrawRight {
+  margin-top: 2px;
+  margin-left: 4px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
