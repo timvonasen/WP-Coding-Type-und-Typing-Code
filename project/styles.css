@@ -6,51 +6,29 @@ html,
 
 body {
   background-color: #f2f2f2;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#canvas {
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+  z-index: 0;
 }
 
 .Paperstack01 {
-  position: fixed;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   bottom: 0;
 }
 
 .Paperstack02 {
-  position: fixed;
+  margin-left: 4.5rem;
+  margin-right: 1.5rem;
   bottom: 0;
-  margin-left: 300px;
-}
-
-.LineDrawContainer {
-  width: 112px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-#LineDrawMiddle {
-  margin-top: 2px;
-  width: 100px;
-  height: 2px;
-  background-color: black;
-}
-
-#LineDrawLeft {
-  margin-top: 2px;
-  margin-right: 4px;
-  width: 100px;
-  height: 2px;
-  background-color: black;
-}
-
-#LineDrawRight {
-  margin-top: 2px;
-  margin-left: 4px;
-  width: 100px;
-  height: 2px;
-  background-color: black;
 }
