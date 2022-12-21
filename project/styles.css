@@ -6,10 +6,6 @@ html,
 
 body {
   background-color: #f2f2f2;
-  flex-direction: column;
-  align-items: baseline;
-  justify-content: center;
-  display: flex;
   height: 100vh;
   width: 100vw;
 }
@@ -17,7 +13,6 @@ body {
 #canvas {
   position: absolute;
   bottom: 0;
-  height: 80%;
   z-index: 0;
 }
 
@@ -28,7 +23,7 @@ body {
 }
 
 .Paperstack02 {
-  margin-left: 4.5rem;
+  margin-left: 7.5rem;
   margin-right: 1.5rem;
   bottom: 0;
 }
