@@ -5,25 +5,167 @@ html,
 }
 
 body {
-  background-color: #f2f2f2;
-  height: 100vh;
-  width: 100vw;
+  background-color: #ffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  flex-direction: column;
 }
 
-#canvas {
-  position: absolute;
-  bottom: 0;
-  z-index: 0;
-}
-
-.Paperstack01 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  bottom: 0;
-}
 
 .Paperstack02 {
-  margin-left: 7.5rem;
-  margin-right: 1.5rem;
-  bottom: 0;
+  position: fixed;
+  bottom: 200px;
+  margin-left: 150px;
 }
+
+.Paperstack03{
+  position: fixed;
+  bottom: 300px;
+  margin-left: 300px;
+}
+
+.Paperstack04{
+  position: fixed;
+  bottom: 150px;
+  margin-left: 450px;
+}
+
+.Paperstack05{
+  position: fixed;
+  bottom: 500px;
+  margin-left: 600px;
+}
+
+.Paperstack06{
+  position: fixed;
+  bottom: 50px;
+  margin-left: 750px;
+}
+
+
+
+.Paperstack09{
+  position: fixed;
+  bottom: 20px;
+  margin-left: 1050px;
+}
+
+.Paperstack10{
+  position: fixed;
+  bottom: 90px;
+  margin-left: 1200px;
+}
+
+.Paperstack11{
+  position: fixed;
+  bottom: 350px;
+  margin-left: 1350px;
+}
+
+.Paperstack12{
+  position: fixed;
+  bottom: 120px;
+  margin-left: 1500px;
+}
+
+.Paperstack13{
+  position: fixed;
+  bottom: 20px;
+  margin-left: 1650px;
+}
+
+
+
+
+.LineDrawContainer {
+  width: 112px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  animation-name: LineRotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#LineDrawMiddle {
+  margin-top: 2px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  rotate: -2deg;
+}
+
+#LineDrawLeft {
+  margin-top: 2px;
+  margin-right: 4px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+
+}
+
+#LineDrawRight {
+  margin-top: 2px;
+  margin-left: 4px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  rotate: 2deg;
+}
+
+@font-face {
+  font-family: 3ProngTree;
+  src: url(3-prong-tree/3PROT___.TTF)  format('truetype');
+}
+
+.p {
+  font-family: '3ProngTree';
+  margin-top: 10%;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.center{
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@keyframes LineRotate{
+  0%   {
+    transform: rotate(0deg);  
+  }
+  25%  { 
+    transform: rotate(0deg); 
+  }
+  50%  {
+    transform: rotate(90deg); 
+  }
+  75%  {
+    transform: rotate(90deg); 
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.mySlides {display: none}
+    img {vertical-align: middle;}
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+    
+  .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
