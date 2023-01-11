@@ -12,71 +12,75 @@ body {
   flex-direction: column;
 }
 
-
 .Paperstack02 {
   position: fixed;
-  bottom: 200px;
+
   margin-left: 150px;
+  bottom: 0;
 }
 
-.Paperstack03{
+.Paperstack03 {
   position: fixed;
-  bottom: 300px;
+
   margin-left: 300px;
+  bottom: 0;
 }
 
-.Paperstack04{
+.Paperstack04 {
   position: fixed;
-  bottom: 150px;
+
   margin-left: 450px;
+  bottom: 0;
 }
 
-.Paperstack05{
+.Paperstack05 {
   position: fixed;
-  bottom: 500px;
+
   margin-left: 600px;
+  bottom: 0;
 }
 
-.Paperstack06{
+.Paperstack06 {
   position: fixed;
-  bottom: 50px;
+
   margin-left: 750px;
+  bottom: 0;
 }
 
-
-
-.Paperstack09{
+.Paperstack09 {
   position: fixed;
-  bottom: 20px;
+
   margin-left: 1050px;
+  bottom: 0;
 }
 
-.Paperstack10{
+.Paperstack10 {
   position: fixed;
-  bottom: 90px;
+
   margin-left: 1200px;
+  bottom: 0;
 }
 
-.Paperstack11{
+.Paperstack11 {
   position: fixed;
-  bottom: 350px;
+
   margin-left: 1350px;
+  bottom: 0;
 }
 
-.Paperstack12{
+.Paperstack12 {
   position: fixed;
-  bottom: 120px;
+
   margin-left: 1500px;
+  bottom: 0;
 }
 
-.Paperstack13{
+.Paperstack13 {
   position: fixed;
-  bottom: 20px;
+
   margin-left: 1650px;
+  bottom: 0;
 }
-
-
-
 
 .LineDrawContainer {
   width: 112px;
@@ -94,7 +98,6 @@ body {
   width: 100px;
   height: 2px;
   background-color: black;
-  rotate: -2deg;
 }
 
 #LineDrawLeft {
@@ -103,7 +106,6 @@ body {
   width: 100px;
   height: 2px;
   background-color: black;
-
 }
 
 #LineDrawRight {
@@ -112,47 +114,48 @@ body {
   width: 100px;
   height: 2px;
   background-color: black;
-  rotate: 2deg;
 }
 
-
-.center{
+.center {
   display: block;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-@keyframes LineRotate{
-  0%   {
-    transform: rotate(0deg);  
+@keyframes LineRotate {
+  0% {
+    transform: rotate(0deg);
   }
-  25%  { 
-    transform: rotate(0deg); 
+  25% {
+    transform: rotate(0deg);
   }
-  50%  {
-    transform: rotate(90deg); 
+  50% {
+    transform: rotate(90deg);
   }
-  75%  {
-    transform: rotate(90deg); 
+  75% {
+    transform: rotate(90deg);
   }
   100% {
     transform: rotate(90deg);
   }
 }
 
-.mySlides {display: none}
-    img {vertical-align: middle;}
-    .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    }
-    
-  .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
