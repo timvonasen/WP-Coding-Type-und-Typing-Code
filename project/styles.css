@@ -6,7 +6,6 @@ html,
 
 body {
   background-color: #ffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -116,18 +115,6 @@ body {
   rotate: 2deg;
 }
 
-@font-face {
-  font-family: 3ProngTree;
-  src: url(3-prong-tree/3PROT___.TTF)  format('truetype');
-}
-
-.p {
-  font-family: '3ProngTree';
-  margin-top: 10%;
-  height: 90px;
-  line-height: 90px;
-  text-align: center;
-}
 
 .center{
   display: block;
