@@ -6,82 +6,81 @@ html,
 
 body {
   background-color: #ffff;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
   flex-direction: column;
+}
+
+/* all the paperstacks*/
+.Paperstack01 {
+  position: fixed;
+
+  margin-left: 150px;
+  bottom: -16px;
 }
 
 .Paperstack02 {
   position: fixed;
 
-  margin-left: 150px;
-  bottom: 0;
+  margin-left: 300px;
+  bottom: -16px;
 }
 
 .Paperstack03 {
   position: fixed;
 
-  margin-left: 300px;
-  bottom: 0;
+  margin-left: 450px;
+  bottom: -16px;
 }
 
 .Paperstack04 {
   position: fixed;
 
-  margin-left: 450px;
-  bottom: 0;
+  margin-left: 600px;
+  bottom: -16px;
 }
 
 .Paperstack05 {
   position: fixed;
 
-  margin-left: 600px;
-  bottom: 0;
+  margin-left: 750px;
+  bottom: -16px;
 }
 
 .Paperstack06 {
   position: fixed;
 
-  margin-left: 750px;
-  bottom: 0;
+  margin-left: 1050px;
+  bottom: -16px;
+}
+
+.Paperstack07 {
+  position: fixed;
+
+  margin-left: 1200px;
+  bottom: -16px;
+}
+
+.Paperstack08 {
+  position: fixed;
+
+  margin-left: 1350px;
+  bottom: -16px;
 }
 
 .Paperstack09 {
   position: fixed;
 
-  margin-left: 1050px;
-  bottom: 0;
+  margin-left: 1500px;
+  bottom: -16px;
 }
 
 .Paperstack10 {
   position: fixed;
 
-  margin-left: 1200px;
-  bottom: 0;
-}
-
-.Paperstack11 {
-  position: fixed;
-
-  margin-left: 1350px;
-  bottom: 0;
-}
-
-.Paperstack12 {
-  position: fixed;
-
-  margin-left: 1500px;
-  bottom: 0;
-}
-
-.Paperstack13 {
-  position: fixed;
-
   margin-left: 1650px;
-  bottom: 0;
+  bottom: -16px;
 }
 
+/* all the containers, which are rotating in the paperstacks*/
 .LineDrawContainer {
   width: 112px;
   align-items: center;
@@ -116,6 +115,7 @@ body {
   background-color: black;
 }
 
+/* essential for the alignment*/
 .center {
   display: block;
   margin-top: 10px;
@@ -123,6 +123,7 @@ body {
   margin-right: auto;
 }
 
+/* to rotate the LineDrawContainers in the paperstacks*/
 @keyframes LineRotate {
   0% {
     transform: rotate(0deg);
@@ -141,6 +142,7 @@ body {
   }
 }
 
+/* for the image sider (visible:font)*/
 .mySlides {
   display: none;
 }
